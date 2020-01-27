@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.311 s <<< FAILURE! - in TestSuite
+Academy.ValidateTitle.basePageNavigation  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.ValidateTitle.basePageNavigation(ValidateTitle.java:35)
+
+Academy.ValidateTitle.teardown  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.ValidateTitle.teardown(ValidateTitle.java:42)
+
